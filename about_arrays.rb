@@ -52,8 +52,7 @@ class AboutArrays < Neo::Koan
   end
 
   def test_slicing_with_ranges
-    # The syntax for array slicing in Ruby is array[s, n] where s is the starting point and
-    # n is the length of slice to take. Note that array slices always return an array.
+    # A sintaxe do slicing em Ruby é array[s, n]  -[s] é o inicio e o [n] é o tamanho do slice.. O slice so array sempre retorna um slice
     array = [:peanut, :butter, :and, :jelly]
 
     assert_equal [:peanut, :butter, :and], array[0..2]
